@@ -1,0 +1,100 @@
+#complete_page{
+    margin: auto;
+}
+.head_section{
+    background-image: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%);
+    padding: 10px;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+.head_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.list{
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: none;
+}
+.image{
+    opacity: 0.5;
+    font-weight:2000px;
+}
+  
+.About {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 5, 63);
+    background-image: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%);
+    border: 10px solid transparent; 
+    transition: border-color 0.3s; 
+}
+
+.About:hover {
+    border-color: #b0e7f8; 
+}
+
+.education_details{
+    background-image: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%); 
+    padding: 50px;
+}
+.edu_det{
+    display: flex;
+    justify-content: space-around;
+}
+.edu_cards{
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.edu_cards:hover{
+    transform: scale(1.1);
+    border-color: rgba(2, 95, 99, 0.2); /* Change border color on hover */
+    box-shadow: 0 4px 6px rgba(90, 200, 233, 0.1); /* Add box shadow on hover */
+}
+.Projects{
+    background-image: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%); 
+    padding: 33px;
+}
+.Project_display{
+    display: flex;
+}
+.colg_project{
+    margin: 10px 200px 10px 200px;
+}
+.Progress{
+    background-image: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%); 
+    padding: 33px; 
+}
+@keyframes progressAnimation {
+    from {
+      width: 0%; /* Start with 0% width */
+    }
+  }
+
+  /* Apply animation to the progress bars */
+  .progress-bar {
+    animation: progressAnimation 2s linear forwards; /* Apply animation */
+  }
+
+  /* Add animation delay for each progress bar */
+  .java .progress-bar { animation-delay: 0s; }
+  .python .progress-bar { animation-delay: 0.5s; }
+  .css .progress-bar { animation-delay: 1s; }
+  .html .progress-bar { animation-delay: 1.5s; }
+.footer{
+    padding: 30px 50px 30px 50px;
+    background-image: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%);
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
